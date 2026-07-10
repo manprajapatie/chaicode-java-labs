@@ -51,40 +51,7 @@ public final class CoffeeShop {
     }
 
     public static double calculateCoffeePrice(String size, String type, CoffeeExtras extras) {
-        if (size == null || type == null || extras == null) {
-            return -1;
-        }
-
-        double basePrice;
-        switch (size) {
-            case "small" -> basePrice = 3.00;
-            case "medium" -> basePrice = 4.00;
-            case "large" -> basePrice = 5.00;
-            default -> {
-                return -1;
-            }
-        }
-
-        double typeAddon;
-        switch (type) {
-            case "regular" -> typeAddon = 0.00;
-            case "latte" -> typeAddon = 1.00;
-            case "cappuccino" -> typeAddon = 1.50;
-            case "mocha" -> typeAddon = 2.00;
-            default -> {
-                return -1;
-            }
-        }
-
-        double total = basePrice + typeAddon;
-
-        if (extras.whippedCream()) {
-            total += 0.50;
-        }
-        if (extras.extraShot()) {
-            total += 0.75;
-        }
-
-        return Math.round(total * 100.0) / 100.0;
+        // Your code here
+        return 0;
     }
 }

@@ -15,7 +15,7 @@ class FitnessProfileTest {
 
     @Test
     void anotherBmi() {
-        assertEquals(22.9, FitnessProfile.calculateBmi(65, 168));
+        assertEquals(23.0, FitnessProfile.calculateBmi(65, 168));
     }
 
     @Test

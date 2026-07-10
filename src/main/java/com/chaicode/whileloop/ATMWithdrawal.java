@@ -11,8 +11,7 @@ package com.chaicode.whileloop;
  *   <li>Repeatedly subtract 20 while balance allows and requested amount still needs bills</li>
  *   <li>If requested amount is not a multiple of 20, return -1</li>
  *   <li>If balance or requested amount is negative, return -1</li>
- *   <li>If requested exceeds balance, dispense only what balance allows (floor balance/20 bills,
- *       but not more than requested/20)</li>
+ *   <li>Account must keep at least $20 after each bill is dispensed</li>
  * </ul>
  *
  * @param balance account balance in dollars

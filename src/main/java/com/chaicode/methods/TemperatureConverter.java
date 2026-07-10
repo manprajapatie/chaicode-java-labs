@@ -12,9 +12,6 @@ package com.chaicode.methods;
  * </ul>
  *
  * <p>Round results to 1 decimal: Math.round(value * 10.0) / 10.0
- *
- * @param celsius temperature in Celsius
- * @return Fahrenheit equivalent
  */
 public final class TemperatureConverter {
 
@@ -25,10 +22,6 @@ public final class TemperatureConverter {
         return 0.0;
     }
 
-  /**
-   * @param fahrenheit temperature in Fahrenheit
-   * @return Celsius equivalent
-   */
     public static double fahrenheitToCelsius(double fahrenheit) {
         // Your code here
         return 0.0;
