@@ -1,5 +1,5 @@
 package com.chaicode.arrays;
-
+/* This is something */
 /**
  * StarCinema Seat Map
  *
